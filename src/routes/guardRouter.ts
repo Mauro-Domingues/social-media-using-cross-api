@@ -53,7 +53,7 @@ const exceptions: IExceptionDTO = {
       methods: ['POST'],
     },
     {
-      url: /^\/reset-password/,
+      url: /^\/reset-password\?token=.*/,
       methods: ['POST'],
     },
     {
